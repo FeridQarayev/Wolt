@@ -45,6 +45,7 @@
     text-decoration: none;
     margin-right: 40px;
     transition: all 1s;
+    font-family: WoltHeading-Omnes, system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;
 }
 
 .nav__item__link a:hover {
@@ -84,6 +85,16 @@
     font-size: 3.75rem;
     font-family: WoltHeading-Omnes, system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;
     font-weight: 900;
+}
+
+
+.__common__text{
+    text-align: center;
+    width: 41%;
+    font-size: 1.75rem;
+    font-family: WoltHeading-Omnes, system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;
+    line-height: 1.4;
+    margin-top: 150px;
 }
 
 
