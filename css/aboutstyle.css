@@ -1,1 +1,56 @@
- 
+* {
+    /* This is for body */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* This is for body */
+}
+
+
+
+.__container {
+    width: 1160px;
+    margin: auto;
+}
+
+#__header {
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+}
+
+.__nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.__nav img {
+    width: 80px;
+    height: 30px;
+}
+
+.nav__item__select select {
+    border: none;
+}
+
+.nav__item__link {
+    margin-right: 5rem;
+}
+
+.nav__item__link a {
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    transition: all 1s;
+}
+
+.nav__item__link a:hover {
+    text-decoration: underline;
+    transition: all 1s;
+}
+
+
+
