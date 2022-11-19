@@ -1,1 +1,40 @@
- 
+.middle-card-end{
+    margin: 50px 150px;
+    display: flex;
+}
+.middle-card-left-img{
+    height:370px;
+    width: 600px;
+    margin-right: auto;
+}
+.middle-card-left-img img{
+    height: 370px;
+    padding-right: 80px;
+}
+.middle-card-right-text{
+    justify-content: end;
+    width: auto;
+    padding-left: 80px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #616060;
+
+}
+.middle-card-right-text ul{
+    margin-top: 0px;
+}
+.middle-card-right-text-title{
+    color: #616060;
+}
+
+.middle-card-right-text li{
+    color: #616060;
+}
+.middle-card-right-text-end-link{
+    color: #009de0;
+    display: block;
+    font-size: 23px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 6px;
+}
