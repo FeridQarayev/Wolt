@@ -188,3 +188,13 @@ body{
     color: rgba(255, 255, 255, 0.72);
     margin-left: 30px;
 }
+
+/* hovers */
+.page-end-question-unde-button:hover{
+    background-color: #1fa9e4;
+}
+.footer-box-up-right-nav-linkgroup-link:hover,
+.footer-box-down-left-button:hover,
+.footer-box-down-right-link:hover{
+    text-decoration: underline;
+}
