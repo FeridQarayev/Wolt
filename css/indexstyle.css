@@ -87,3 +87,89 @@
     display: flex;
     flex-direction: column;
 }
+
+/* Card Row */
+.card-row{
+    margin:100px auto 0px;
+    max-width: 1200px;
+    padding: 0px 30px;
+    text-align: center;
+}
+.card-row-title{
+    display: block;
+    font-weight:1000;
+    font-size: 40px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+.card-row-cards{
+    margin-top: 40px;
+    display: flex;
+    align-content: stretch;
+}
+#pic1{
+    background-image: url("https://consumer-static-assets.wolt.com/frontpage-assets/courier-card-image.jpg");
+}
+#pic2{
+    background-image: url("https://consumer-static-assets.wolt.com/frontpage-assets/restaurant-card-image.jpg");
+}
+#pic3{
+    background-image:url("https://consumer-static-assets.wolt.com/frontpage-assets/jobs-card-image.jpg")
+}
+.card-row-cards-card{
+    background-color: rgba(32, 33, 37, 0.04);
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align: center;
+    margin: 0px 24px;
+}
+.card-row-cards :first-child{
+    margin-left: 0px;
+}
+.card-row-cards :last-child{
+    margin-right: 0px;
+}
+.card-row-cards-card-img{
+    width: 100%;
+    height: 300px;
+    background-position:50% 0;
+    background-size: cover;
+}
+.card-row-cards-card-under{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 37px 39px;
+}
+.card-row-cards-card-under h3{
+    font-weight: 600;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.card-row-cards-card-under-link{
+    margin: auto auto  10px;
+    margin-right: auto !important;
+    color: rgb(0, 157, 224);
+    text-decoration: none;
+    cursor: pointer;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.card-row-cards-card-under-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #009de0;
+    transform: translateZ(0);
+    transition: transform .4s cubic-bezier(.01,.21,.35,1);
+}
+.card-row-cards-card-under-link:hover::after{
+    transform: translate3d(-102%,0,0);
+}
