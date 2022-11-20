@@ -1,1 +1,90 @@
- 
+ /* Get Wolt Module */
+ .get-wolt-module{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 760px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f3f5;
+    flex-direction: column;
+ }
+.get-wolt-module-container{
+    padding: 30px;
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 1200px;
+    position: relative;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.get-wolt-module-container-right{
+    position: absolute;
+    right: -500px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1100px;
+    overflow: hidden;
+    transition: opacity .15s ease;
+}
+.get-wolt-module-container-inline-img{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transform-origin: top left;
+    transform: rotate(-28.51deg) skew(13.83deg) scale(.53) translate(-117px,286.1px);
+}
+.get-wolt-module-container-inline-img img{
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+.get-wolt-module-container-right-background-img{
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    height: 100%;
+    left: 0;
+}
+
+.get-wolt-module-container-left{
+    z-index: 1;
+    max-width: 45%;
+}
+.get-wolt-module-container-left-title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;
+    font-weight:700 !important;
+    line-height: 60px;
+    color: rgb(32, 33, 37);
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.get-wolt-module-container-left-title{
+    font-weight:700 !important;
+    color: rgb(32, 33, 37);
+}
+.get-wolt-module-container-left p{
+    color: #616060;
+    line-height: 30px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Roboto,Open Sans,sans-serif;
+}
+.get-wolt-module-container-left a{
+    cursor: pointer;
+}
+.get-wolt-module-container-left-appstore{
+    border-radius: 3px;
+    margin-top: 30px;
+    width: 150px;
+}
+.PlatformBadge-module__image___vWXHR{
+    width: 150px;
+}
+.get-wolt-module-container-left-googleplay img{
+    width: 160px;
+    margin-top: 20px;
+}
+.get-wolt-module-container-left-down-links{
+    display: flex;
+    flex-direction: column;
+}
