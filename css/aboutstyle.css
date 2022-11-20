@@ -149,3 +149,13 @@
 .bottom_text_ul_li>.bottom_text_ul_li_str {
     font-weight: 500;
 }
+
+
+
+.bottom_img {
+    width: 50%;
+}
+
+.bottom_img_item {
+    margin-top: 80px;
+}
