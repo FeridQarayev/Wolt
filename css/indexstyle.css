@@ -29,6 +29,10 @@
     height: 68px;
 }
 
+.nav__item__login span:hover{
+    cursor: pointer;
+}
+
 
 .nav__item__login a{
     margin-right: 3rem;
@@ -58,3 +62,93 @@
 }
 
 
+#intro__{
+    display: flex;
+    width: 100%;
+    height: 640px;
+    background-color: rgb(247, 240, 205);
+    position: relative;
+    overflow: hidden;
+}
+
+.intro__image{
+    position: absolute;
+    width: 1160px;
+    height: 840px;
+    right: 3%;
+    top: 0;
+    z-index: 0;
+}
+
+.intro__image img{
+    width: 100%;
+}
+
+
+.intro__text {
+    z-index: 1;
+}
+
+
+.intro__text p{
+    font-size: 3.75rem;
+    font-family:  WoltHeading-Omnes, system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;
+
+    font-weight: 700;
+}
+
+.intro__text h3{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: WoltHeading-Omnes, system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;;
+}
+
+.intro__text div{
+    margin-top: 1rem;
+    position: relative;
+}
+
+.intro__text div input{
+    border: 2px solid rgba(32, 33, 37, 0.12);
+    width: 400px;
+    padding: 15px 50px;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+/* .intro__text div input:focus{
+    border-color: rgba(0 , 157 , 224);
+} */
+
+.intro__text input:hover{
+    border-color: rgba(0 , 157 , 224);
+    transition: border 0.3s;
+}
+
+.intro__text div i{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    font-size: 1.2rem;
+}
+
+.intro__text div a{
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(0, 157, 224);
+    transition: all 0.3s;
+    padding: 1rem 0.6rem;
+    font-family: WoltHeading-Omnes, system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", sans-serif;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+
+.intro__text div a:hover{
+    background-color: rgb(2, 167, 238);
+    transition: all 0.3s;
+}
