@@ -101,3 +101,7 @@
     padding: 0;
     color: #616060;
 }
+
+.middle_text_ul_li>.middle_text_ul_li_str {
+    font-weight: 500;
+}
