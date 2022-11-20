@@ -39,7 +39,19 @@
 
 
 
+ .middlecontent_right_img {
 
+     width: 52%;
+ }
+
+ .middlecontent_right_img_item {
+
+
+     margin-left: 171px;
+
+
+
+ }
 
  .middlecontent_content_delivered_text {
      display: flex;
