@@ -173,3 +173,135 @@
 .card-row-cards-card-under-link:hover::after{
     transform: translate3d(-102%,0,0);
 }
+
+
+/* body */
+body{
+    margin:0px;
+}
+
+/* footer */
+.footer{
+    margin-top: 200px;
+    background-color: rgb(20, 20, 20);
+    padding: 104px 30px 30px;
+    display: block;
+}
+.footer-box{
+    width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+.footer-box-up{
+    display: flex;
+    width: 1100px;
+    justify-content:space-between;
+    margin-bottom: 100px;
+
+}
+.footer-box-up-left{
+    display: flex;
+    flex-direction: column;
+}
+.Footer__StyledWoltLogo-sc-1ki6z7e-12{
+    fill: rgb(255, 255, 255) !important;
+    width: 80px;
+}
+.footer-box-up-left-applinks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footer-box-up-left-applinks-appstore{
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.footer-box-up-left-applinks-googleplay{
+    margin-top: 15px;
+    border-radius: 3px;
+}
+.footer-box-up-left-applinks-googleplay-img{
+    height: 40px;
+}
+.footer-box-up-right{
+    display: flex;
+    justify-content: end;
+}
+.footer-box-up-right-nav{
+    color: rgba(255, 255, 255, 0.72);
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 30px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Roboto,Open Sans,sans-serif;
+}
+.footer-box-up-right-nav-label{
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+.footer-box-up-right-nav-linkgroup ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.footer-box-up-right-nav-linkgroup-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-box-down{
+    display: flex;
+    justify-content:space-around;
+    width: 1400px;
+    align-items: center;
+    
+}
+.footer-box-down-left{
+    display: flex;
+    justify-content: start;
+}
+.footer-box-down-left-button{
+    margin-left: 10px;;
+    margin-right: 10px;;
+    padding: 0px ;
+    border: 0px;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    cursor: pointer;
+}
+.FooterSettingButton-icon{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+}
+.footer-box-down-left-button-location,.footer-box-down-left-button-earth,.footer-box-down-left-button-eye{
+    margin: 0px 15px;
+}
+.footer-box-down-right{
+    display: flex;
+}
+.footer-box-down-right a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-box-down-right-end{
+    color: rgba(255, 255, 255, 0.72);
+    margin-left: 30px;
+}
+
+/* hovers */
+.page-end-question-unde-button:hover{
+    background-color: #1fa9e4;
+}
+.footer-box-up-right-nav-linkgroup-link:hover,
+.footer-box-down-left-button:hover,
+.footer-box-down-right-link:hover{
+    text-decoration: underline;
+}
