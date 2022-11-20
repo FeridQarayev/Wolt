@@ -65,3 +65,17 @@
     margin-top: 130px;
     margin-left: 58px;
 }
+
+/*  MIDDLE   */
+.middle {
+    display: flex;
+}
+
+.middle_img {
+    width: 50%;
+}
+
+.middle_img_item {
+    margin-top: 20px;
+    margin-left: 80px;
+}
